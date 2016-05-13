@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="myapp.products" extends="baseLayout">
+    <put-attribute name="title" value="Product Details" />
+    <put-attribute name="body" type="template" value="/WEB-INF/views/jsp/templates/products.jsp" />
+  </definition>
+  
+  <definition name="myapp.add.products" extends="baseLayout">
+    <put-attribute name="title" value="Add Product Details" />
+    <put-attribute name="body" type="template" value="/WEB-INF/views/jsp/templates/addProduct.jsp" />
+  </definition>
+</tiles-definitions>
